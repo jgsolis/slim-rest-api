@@ -1,0 +1,27 @@
+{
+    "name": "trm",
+    "description": "TRM Service",
+    "license": "ISC",
+    "authors": [
+        {
+            "name": "Jose Gildardo Solis Sanchez",
+            
+            "role" : "developer"
+        }
+    ],
+    "require": {
+        "katzgrau/klogger": "^1.2",
+        "machacaHeavy/slim-api" : "dev-master"
+    },
+    "repositories" : [ 
+        {
+            "type" : "vcs",
+            "url"  : "https://github.com/jgsolis/slim-api"
+        }
+    ],
+    "autoload" : {
+        "psr-4" : {
+            "App\\" : "app"
+        }
+    }
+}
